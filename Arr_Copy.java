@@ -1,6 +1,6 @@
 
-/*Сопирование массива-метод Arrays.copyOf()
- * целиком Arr1...или часть -Arr2 и Arr3(по заданным индексам)-Arrays.copyOfRange(arr1, 3,6)
+/*Копирование массива-метод Arrays.copyOf()
+ * целиком Arr1...или часть -Arr2copyOf(arr1, 4) и Arr3(по заданным индексам)-Arrays.copyOfRange(arr1, 3,6)
  */ 
 
 import java.util.Arrays;
