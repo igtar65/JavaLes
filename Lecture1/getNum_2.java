@@ -1,3 +1,4 @@
+package Lecture1;
 
 /* Изучаем работу Scanner
 -Scanner(System.in) -предоставляет пользователю возможность ВВодить информацию
@@ -9,7 +10,7 @@
 
 import java.util.Scanner;
 
-public class enterConsole {
+public class getNum_2 {
     public static void main(String[] args) {   //-main-основное тело...в котором есть 2 метода':
         getNumber();                           // метод работы с числами...
         getString();                           //метод считывания строк...Вызываем отдельрыми кейсами и передаем в main
@@ -18,7 +19,7 @@ public class enterConsole {
     public static void getNumber() {  
         
         Scanner sc = new Scanner(System.in);   // ввод данных
-        System.out.print("Работа с числами - Введите число:");
+        System.out.print("Работа с числами - Введите число: ");
  
         if (sc.hasNextInt()) {              // проверка -является ли числом 
             int number = sc.nextInt();
