@@ -8,13 +8,13 @@ import java.util.Arrays;
  */
 public class sortArray {
     public static void main(String[] args) {
-       int[]myArr ={-34,-250,10,0,45,-12,999};{
+       int[]myArr ={-34,-50,100,0,45,-12,999};{
            System.out.println(Arrays.toString(myArr));
-          Arrays.sort(myArr,0,5);
+          Arrays.sort(myArr,0,6);
           System.out.println(Arrays.toString(myArr )+ "-сортированный массив");
 
         System.out.println("или"); 
-       int[]myArr2 = {-34,-250,10,0,45,-12,999};
+       int[]myArr2 = {-34,-50,100,0,45,-12,999};
        System.out.println(Arrays.toString(myArr2));
        for (int i = myArr2.length - 1; i > 0; i--) {
            for (int j = 0; j < i; j++) {       /*Сравниваем элементы попарно, если они имеют неправильный порядок,то меняем местами*/
