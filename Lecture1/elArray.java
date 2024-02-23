@@ -1,8 +1,10 @@
+package Lecture1;
+
 /*Одномерные массивы -инициализация и вывод элементов[] */
 
 import java.util.Arrays;
 
-public class Array2 {
+public class elArray {
    
         public static void main(String[] args) {
             int[]myAr = {14,0,22,1};               // инициализация
