@@ -6,7 +6,7 @@ package Lecture1;
 
  import java.util.Arrays;
 
- public class Arr_Copy {
+ public class copyArray {
      public static void main(String[] args) {
  
          int[]arr1 = {167, -2, 16, 99, 26, 92, 43, -234, 35, 80};
