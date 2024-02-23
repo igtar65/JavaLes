@@ -1,10 +1,12 @@
+package Lecture1;
+
 /* two-dimensional array-
 В двумерном массиве -используете две квадратные скобки вместо одной.
 в первой вы пишите количество строк
 во второй вы пишите количество столбцов
 */
 
-public class ToDim {
+public class toDimArray {
     public static void main(String[] args) {
 		
 			System.out.println();
@@ -21,7 +23,7 @@ public class ToDim {
         System.out.println("Заполним массив с консоли");  
       
 
-             int [][] arr2= {{5,7,3,17}, {7,0,1,12}, {8,1,2,3}};    
+             int [][] arr2= {{5,7,3,17}, {7,3,1,12}, {8,1,9,3}};    
              for (int i = 0; i < arr2.length; i++){
                 for (int j = 0; j < arr2[i].length; j++){
           
