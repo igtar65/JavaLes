@@ -49,8 +49,17 @@ public class conditionsOper {
          System.out.println(c +" - присвоено (с) ");
         }
 }
-            // if (a > b) c = a;
+            // if (a > b) c = a;     // сокращенная форма блока -без else
             // if (b > a) c = b;
             // System.out.println(c);
 
-
+            // Управляющие конструкции:- тернарный оператор -(?)-
+            
+            // public class Program {
+            //  public static void main(String[] args) {
+            //  int a = 1;
+            //  int b = 2;
+            //  int min = a < b ? a : b;
+            //  System.out.println(min);
+            //  }
+            // }
