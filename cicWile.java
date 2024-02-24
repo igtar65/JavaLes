@@ -32,8 +32,10 @@ public class cicWile {
 //     }
 //    }
 
+        /* а do..while сначала выполняет тело цыкла, а потом проверяет условие, 
+        по этому тело цикла выполнится, как минимум, 1 раз.*/
 public static void main(String[] args) {
-    int value = 21;
+    int value = 321;
     int count = 0;
     do {
     value /= 10;
