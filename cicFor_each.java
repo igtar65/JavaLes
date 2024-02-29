@@ -5,14 +5,14 @@ T[] //массивы любого типа
 Объекты, реализующие интерфейс Iterable.
 */
 
-import java.util.Iterator;
+
 
 /**
  * cicFor_each
  */
 public class cicFor_each {
      public static void main(String[] args) {
-        int arr[] = new int[] {22,3,8,0,34};
+        int arr[] = new int[] {22,35,8,0,34};
         for (int item : arr) {
     
         System.out.print( item +" ");
