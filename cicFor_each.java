@@ -14,7 +14,6 @@ public class cicFor_each {
      public static void main(String[] args) {
         int arr[] = new int[] {22,35,8,0,34};
         for (int item : arr) {
-    
         System.out.print( item +" ");
         }
        
