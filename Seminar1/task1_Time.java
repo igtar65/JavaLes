@@ -27,18 +27,19 @@ public class task1_Time {
 
         int hour = LocalDateTime.now().getHour(); // вводим переменную час- hour -и hour вычленяем из LocalDateTime.now() + .getHour()
 
-        if (hour >= 5 && hour <= 11.59)         // начинаем перебор фразы- в зависимомости от времени
-            ;
+        if (hour >= 5 && hour <= 11.59){        // начинаем перебор фразы- в зависимомости от времени
+            
         phrase = ("Good Moning! - ");
-        if (hour >= 12 && hour <= 17.59)
-            ;
+        }
+        else if (hour >= 12 && hour <= 17.59){
+            
         phrase = ("Good Day! - ");
-
-        if (hour >= 18 && hour <= 22.59)
-            ;
+        }
+        else if (hour >= 18 && hour <= 22.59){
+            
         phrase = ("Good Evening! - ");
-        if (hour >= 23 && hour <= 4.59)
-            ;
+        }
+        else if (hour >= 23 && hour <= 4.59);
         phrase = ("Good Night! - ");
 
         System.out.println(LocalDateTime.now().getHour());   //вывод времени
