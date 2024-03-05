@@ -1,5 +1,6 @@
 package javaStud;
-/* Консольный ввод/вывод в Java....Спецификаторы
+/* output to the console
+Консольный ввод/вывод в Java....Спецификаторы
 - %d: для целочисленных значений чисел
 - %x: для вывода шестнадцатеричных чисел
 - %f: для вывода чисел с плавающей точкой
@@ -10,7 +11,7 @@ package javaStud;
 
 import java.time.LocalDateTime;
 
-public class ConsIO {
+public class outputCons {
     public static void main(String[] args) {
         System.out.println("Hello !-JAVA");
         System.out.println("Начинаем заново :");
